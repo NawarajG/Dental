@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Dental Services | City Smiles Dental Clinic</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fas fa-clock me-2"></i> Mon-Fri: 9:00 AM - 6:00 PM, Sat: 10:00 AM - 3:00 PM
+                </div>
+                <div class="col-md-6 text-end">
+                    <i class="fas fa-phone me-2"></i> (123) 456-7890
+                    <i class="fas fa-envelope ms-3 me-2"></i> info@citysmilesdental.com
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="City Smiles Dental" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appointment.html">Book Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="appointment.html" class="btn btn-primary ms-lg-3">Emergency</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-5 fw-bold">Our Dental Services</h1>
+                    <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Services</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="list-group" id="services-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="general-tab" data-bs-toggle="list" href="#general" role="tab">
+                            <i class="fas fa-tooth me-2"></i> General Dentistry
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="cosmetic-tab" data-bs-toggle="list" href="#cosmetic" role="tab">
+                            <i class="fas fa-smile me-2"></i> Cosmetic Dentistry
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="orthodontics-tab" data-bs-toggle="list" href="#orthodontics" role="tab">
+                            <i class="fas fa-teeth me-2"></i> Orthodontics
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="implants-tab" data-bs-toggle="list" href="#implants" role="tab">
+                            <i class="fas fa-implant me-2"></i> Dental Implants
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="whitening-tab" data-bs-toggle="list" href="#whitening" role="tab">
+                            <i class="fas fa-snowflake me-2"></i> Teeth Whitening
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="preventive-tab" data-bs-toggle="list" href="#preventive" role="tab">
+                            <i class="fas fa-shield-alt me-2"></i> Preventive Care
+                        </a>
+                    </div>
+                    <div class="card border-0 shadow-sm mt-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Need Help Choosing?</h5>
+                            <p class="card-text">Not sure which service is right for you? Our team can help.</p>
+                            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content" id="services-tabContent">
+                        <div class="tab-pane fade show active" id="general" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-general.jpg" class="card-img-top" alt="General Dentistry">
+                                <div class="card-body">
+                                    <h3 class="card-title">General Dentistry</h3>
+                                    <p class="card-text">Our general dentistry services focus on maintaining your oral health through preventive care and treatment of common dental issues.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Comprehensive dental exams</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Professional teeth cleaning</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Dental fillings</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Root canal therapy</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Tooth extractions</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Gum disease treatment</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="cosmetic" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-cosmetic.jpg" class="card-img-top" alt="Cosmetic Dentistry">
+                                <div class="card-body">
+                                    <h3 class="card-title">Cosmetic Dentistry</h3>
+                                    <p class="card-text">Enhance your smile with our cosmetic dentistry services designed to improve the appearance of your teeth and boost your confidence.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Porcelain veneers</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Composite bonding</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Dental crowns</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Inlays and onlays</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Smile makeovers</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Gum contouring</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="orthodontics" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-braces.jpg" class="card-img-top" alt="Orthodontics">
+                                <div class="card-body">
+                                    <h3 class="card-title">Orthodontics</h3>
+                                    <p class="card-text">Achieve a straighter, healthier smile with our orthodontic treatments for children, teens, and adults.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Traditional metal braces</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Ceramic braces</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Invisalign clear aligners</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Retainers</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Early interceptive treatment</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Adult orthodontics</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="implants" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-implants.jpg" class="card-img-top" alt="Dental Implants">
+                                <div class="card-body">
+                                    <h3 class="card-title">Dental Implants</h3>
+                                    <p class="card-text">Replace missing teeth with durable, natural-looking dental implants that function like your own teeth.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Single tooth implants</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Implant-supported bridges</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> All-on-4 full arch implants</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Bone grafting</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Sinus lifts</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Implant restoration</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="whitening" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-teeth-whitening.jpg" class="card-img-top" alt="Teeth Whitening">
+                                <div class="card-body">
+                                    <h3 class="card-title">Teeth Whitening</h3>
+                                    <p class="card-text">Brighten your smile with our professional teeth whitening treatments that are safe, effective, and long-lasting.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> In-office power whitening</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Take-home whitening kits</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Custom-fitted whitening trays</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Whitening for sensitive teeth</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Maintenance treatments</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Whitening for crowns and veneers</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="preventive" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <img src="images/service-checkup.jpg" class="card-img-top" alt="Preventive Care">
+                                <div class="card-body">
+                                    <h3 class="card-title">Preventive Care</h3>
+                                    <p class="card-text">Maintain optimal oral health and prevent dental problems before they start with our comprehensive preventive care services.</p>
+                                    <h5 class="mt-4">Services Include:</h5>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Regular dental exams</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Professional cleanings</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Dental sealants</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Fluoride treatments</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Oral cancer screenings</li>
+                                        <li class="list-group-item border-0 ps-0"><i class="fas fa-check text-primary me-2"></i> Periodontal therapy</li>
+                                    </ul>
+                                    <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="mb-4">We Accept Most Dental Insurance Plans</h2>
+                    <p class="lead">We work with many insurance providers to make dental care affordable for our patients. Our team will help you understand your coverage and maximize your benefits.</p>
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> Delta Dental
+                        </div>
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> Cigna
+                        </div>
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> Aetna
+                        </div>
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> MetLife
+                        </div>
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> Guardian
+                        </div>
+                        <div class="badge bg-white text-dark p-3 shadow-sm">
+                            <i class="fas fa-check-circle text-primary me-2"></i> Blue Cross
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-4">Don't See Your Insurance Provider?</h4>
+                            <p class="card-text">We may still accept your insurance! Contact our office to verify your coverage.</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="insurance-name" class="form-label">Insurance Provider</label>
+                                    <input type="text" class="form-control" id="insurance-name" placeholder="Enter your insurance provider">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="insurance-member-id" class="form-label">Member ID (Optional)</label>
+                                    <input type="text" class="form-control" id="insurance-member-id" placeholder="Enter your member ID">
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Check Coverage</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="images/logo-white.png" alt="City Smiles Dental" height="50" class="mb-3">
+                    <p>Providing exceptional dental care with a personal touch since 2005. Our mission is to create healthy, beautiful smiles that last a lifetime.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white">Services</a></li>
+                        <li class="mb-2"><a href="appointment.html" class="text-white">Book Appointment</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-4">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="services.html#general" class="text-white">General Dentistry</a></li>
+                        <li class="mb-2"><a href="services.html#cosmetic" class="text-white">Cosmetic Dentistry</a></li>
+                        <li class="mb-2"><a href="services.html#orthodontics" class="text-white">Orthodontics</a></li>
+                        <li class="mb-2"><a href="services.html#implants" class="text-white">Dental Implants</a></li>
+                        <li class="mb-2"><a href="services.html#whitening" class="text-white">Teeth Whitening</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> 123 Dental Avenue, Suite 100<br>Cityville, ST 12345</p>
+                        <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@citysmilesdental.com</p>
+                    </address>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 City Smiles Dental. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
